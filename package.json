@@ -1,0 +1,28 @@
+{
+  "name": "retabot-discord",
+  "description": "Friendly Fun Sealbot.",
+  "main": "./retabot.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnblank/RetaBot-Discord.git"
+  },
+  "keywords": [
+    "retabot",
+    "discord",
+    "fun",
+    "quotes",
+    "entertainment"
+  ],
+  "author": "xnblank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XNBlank/RetaBot-Discord/issues"
+  },
+  "homepage": "https://github.com/XNBlank/RetaBot-Discord#readme",
+  "dependencies": {
+    "discord.js": "hydrabolt/discord.js#master",
+    "winston": "^2.1.1",
+    "node-json-db": "^0.5.1"
+  },
+  "version": "1.0.0"
+}
