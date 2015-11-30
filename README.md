@@ -11,7 +11,7 @@
 
 # How to install 
 ```
-$ npm install --save Retabot-Discord
+$ npm install --save retabot-discord
 ```
 
 # Usage
