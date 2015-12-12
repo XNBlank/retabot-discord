@@ -11,7 +11,9 @@
     "discord",
     "fun",
     "quotes",
-    "entertainment"
+    "entertainment",
+    "nodejs",
+    "discordjs"
   ],
   "author": "xnblank",
   "license": "MIT",
@@ -22,7 +24,8 @@
   "dependencies": {
     "discord.js": "hydrabolt/discord.js#master",
     "winston": "^2.1.1",
-    "node-json-db": "^0.5.1"
+    "node-json-db": "^0.5.1",
+    "ytdl-core": "^0.7.8"
   },
-  "version": "1.0.0"
+  "version": "1.0.2"
 }

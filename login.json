@@ -4,5 +4,8 @@
     ],
     "password": [
         "insertPasswordHere"
+    ],
+    "ownerid":  [
+	"id"
     ]
 }
