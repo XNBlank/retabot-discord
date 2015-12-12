@@ -55,3 +55,24 @@ $ node retabot.js
 
 `savequote` : Tell me something for me to remember for the future!
 
+`playaudio` **audioname.extension** : Play a song from the /sounds/ folder, or from a direct link to an audio file.
+
+`listaudio` : List all the audio files in the /sounds/ folder.
+
+### Admin Only Commands
+
+`joinvoice` **voice channel** : Have me join a voice channel. Can be a name or ID.
+
+`deletefile` **audiofile.extension** : Delete a file from the audio folder.
+
+`stopplaying` : Stop streaming audio to the voice channel.
+
+`leavevoice` : Leave the voice channel.
+
+`dlaudio` [**youtube video id**, **filename (no extension)**] : Download a song from youtube and rename the file after it downloads.
+
+`setprefix` **prefix** : Set the command prefix.
+
+`reloadjson` : Reload the json files.
+
+
