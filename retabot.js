@@ -20,7 +20,7 @@ try{
 	var prefix = db.getData("/prefix");
 	var email = settings.getData("/email");
 	var password = settings.getData("/password");
-	var ownerid = settings.getData("/owner");
+	var ownerid = settings.getData("/ownerid");
 	console.log("Loaded databases.")
 }
 catch(error){
@@ -28,7 +28,7 @@ catch(error){
 	db.push("/prefix", "-");
 	settings.push("/email", "insertEmailHere");
 	settings.push("/password", "insertPasswordHere");
-	settings.push("/owner", "putOwnerUUIDHere");
+	settings.push("/ownerid", "putOwnerUUIDHere");
 	console.log(error);
 }
 
